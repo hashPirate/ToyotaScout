@@ -14,6 +14,8 @@ ToyotaScout leverages state-of-the-art AI to understand your preferences and rec
 - **Year and Features**: Matches you with cars that meet your standards.
 - **Context and Parameters**: Remembers all previous context and builds upon that.
 - **Advanced Filters**: Additional options like color, drivetrain, and body type.
+![image2](https://github.com/user-attachments/assets/11a3d139-11a6-49ef-85a0-7deb0c23365f)
+![image3](https://github.com/user-attachments/assets/9518dc0d-f2a0-4a1b-a6d6-25c6a3dcfb84)
 
 #### Location-Based Search
 Find cars near you with ease! ToyotaScout uses:
