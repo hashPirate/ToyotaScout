@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cqt-kZ-zHI">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Verification Page-->
+        <scene sceneID="Ww5-z2-a0N">
+            <objects>
+                <viewController storyboardIdentifier="VerificationPage" id="eUu-Yi-4ix" customClass="VerificationPage" customModule="BarbaraAI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8ng-1m-Mtr">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verify your phone number" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwE-Xc-st0">
+                                <rect key="frame" x="0.0" y="94" width="393" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="iZs-xT-dnl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We texted you a code. Please enter it below." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15h-HI-yPg">
+                                <rect key="frame" x="80" y="187" width="232" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="zSJ-bA-Xnz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ksd-Mt-J8f"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="15h-HI-yPg" firstAttribute="top" secondItem="hwE-Xc-st0" secondAttribute="bottom" id="E9K-Eq-nH6"/>
+                            <constraint firstItem="hwE-Xc-st0" firstAttribute="leading" secondItem="Ksd-Mt-J8f" secondAttribute="leading" id="NVP-yI-xap"/>
+                            <constraint firstItem="hwE-Xc-st0" firstAttribute="trailing" secondItem="Ksd-Mt-J8f" secondAttribute="trailing" id="NcV-lw-s57"/>
+                            <constraint firstItem="15h-HI-yPg" firstAttribute="leading" secondItem="Ksd-Mt-J8f" secondAttribute="leading" constant="80" id="SQ7-sJ-m5n"/>
+                            <constraint firstItem="hwE-Xc-st0" firstAttribute="top" secondItem="Ksd-Mt-J8f" secondAttribute="top" constant="35" id="T91-yf-BpK"/>
+                            <constraint firstItem="Ksd-Mt-J8f" firstAttribute="trailing" secondItem="15h-HI-yPg" secondAttribute="trailing" constant="81" id="hvY-fd-sro"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="weTextedACodeLabel" destination="15h-HI-yPg" id="APu-e5-Ziw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CLd-Vw-cIX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1822.1374045801526" y="45.774647887323944"/>
+        </scene>
+        <!--Sign Up-->
+        <scene sceneID="TMD-UF-faR">
+            <objects>
+                <viewController storyboardIdentifier="SignUp" id="HcV-9f-NyK" customClass="SignUp" customModule="BarbaraAI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GRj-pp-1Vl">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create an account to keep using Barbara" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrn-9E-NUb">
+                                <rect key="frame" x="0.0" y="116" width="393" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="R01-fj-Lmg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YsE-K8-3Pj" customClass="PaddedTextField" customModule="BarbaraAI" customModuleProvider="target">
+                                <rect key="frame" x="53" y="294" width="268" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="+1 " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oCl-Xz-7VA" customClass="PaddedTextField" customModule="BarbaraAI" customModuleProvider="target">
+                                <rect key="frame" x="53" y="372" width="76" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad" textContentType="tel"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Send Code" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Bp-G8-rT6">
+                                <rect key="frame" x="119" y="498" width="130" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="123 456 7890" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="liX-ua-Qf0" customClass="PaddedTextField" customModule="BarbaraAI" customModuleProvider="target">
+                                <rect key="frame" x="127" y="372" width="194" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad" textContentType="tel"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pEj-hP-itX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hrn-9E-NUb" firstAttribute="top" secondItem="pEj-hP-itX" secondAttribute="top" constant="57" id="MSW-KT-tcI"/>
+                            <constraint firstItem="hrn-9E-NUb" firstAttribute="trailing" secondItem="pEj-hP-itX" secondAttribute="trailing" id="OEC-YL-rkM"/>
+                            <constraint firstItem="hrn-9E-NUb" firstAttribute="leading" secondItem="pEj-hP-itX" secondAttribute="leading" id="v3S-41-Pcc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="firstName" destination="YsE-K8-3Pj" id="iJY-3c-sE1"/>
+                        <outlet property="headerName" destination="hrn-9E-NUb" id="q53-qk-iYJ"/>
+                        <outlet property="numberField" destination="liX-ua-Qf0" id="FMp-F4-ApJ"/>
+                        <outlet property="prefixField" destination="oCl-Xz-7VA" id="BNg-I8-6t6"/>
+                        <outlet property="sendCode" destination="5Bp-G8-rT6" id="Jj2-fC-KaX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Gz-wh-iqW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-880.15267175572512" y="16.901408450704228"/>
+        </scene>
+        <!--Loading Page-->
+        <scene sceneID="u7e-ul-TTR">
+            <objects>
+                <viewController storyboardIdentifier="LoadingPage" id="Dxg-Pc-oPX" customClass="LoadingPage" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="saA-L2-dUn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="RJE-Wv-64C"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3d5-d7-wbe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2073" y="799"/>
+        </scene>
+        <!--Profile Page-->
+        <scene sceneID="JjG-C9-ihC">
+            <objects>
+                <viewController storyboardIdentifier="ProfilePage" id="jCn-u8-NSX" customClass="ProfilePage" customModule="BarbaraAI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Prj-da-byZ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EM8-bd-YK4">
+                                <rect key="frame" x="0.0" y="199" width="393" height="653"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jbq-CU-zIp"/>
+                        <color key="backgroundColor" red="0.41568624970000001" green="0.57647061349999995" blue="0.97254902119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="EM8-bd-YK4" firstAttribute="trailing" secondItem="jbq-CU-zIp" secondAttribute="trailing" id="3uG-p2-IhR"/>
+                            <constraint firstAttribute="bottom" secondItem="EM8-bd-YK4" secondAttribute="bottom" id="Ht5-EG-aVI"/>
+                            <constraint firstItem="EM8-bd-YK4" firstAttribute="leading" secondItem="jbq-CU-zIp" secondAttribute="leading" id="hhZ-pa-HFc"/>
+                            <constraint firstItem="EM8-bd-YK4" firstAttribute="top" secondItem="jbq-CU-zIp" secondAttribute="top" constant="140" id="pXZ-6K-TGe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cardView" destination="EM8-bd-YK4" id="4ya-y5-gGu"/>
+                        <outlet property="container" destination="EM8-bd-YK4" id="cQ8-l1-sUe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AGj-7R-elf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-880.15267175572512" y="718.30985915492965"/>
+        </scene>
+        <!--Voice Page-->
+        <scene sceneID="fQh-xq-ECh">
+            <objects>
+                <viewController storyboardIdentifier="VoicePage" id="cqt-kZ-zHI" customClass="VoicePage" customModule="BarbaraAI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ROo-fi-Cxf">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oep-Mn-r5m">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="120"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b55ad8a470a2bc5c5ffc5f864b9fdd09-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="PrY-dh-4iD">
+                                        <rect key="frame" x="166.66666666666666" y="56" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Barbara" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="keu-bv-s77">
+                                        <rect key="frame" x="148" y="116" width="97" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="jso-W5-xm9"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="e2Q-0o-ZTV"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Oep-Mn-r5m" firstAttribute="leading" secondItem="e2Q-0o-ZTV" secondAttribute="leading" id="0X8-gt-ucd"/>
+                            <constraint firstItem="Oep-Mn-r5m" firstAttribute="top" secondItem="ROo-fi-Cxf" secondAttribute="top" id="L2r-q4-cga"/>
+                            <constraint firstItem="Oep-Mn-r5m" firstAttribute="trailing" secondItem="e2Q-0o-ZTV" secondAttribute="trailing" id="S4m-Ik-HD7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fIB-s9-n9o"/>
+                    <connections>
+                        <outlet property="Logo" destination="PrY-dh-4iD" id="PO6-Rp-ogJ"/>
+                        <outlet property="logoText" destination="keu-bv-s77" id="5lI-cR-oOg"/>
+                        <outlet property="navigationBar" destination="Oep-Mn-r5m" id="axx-bb-meh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ltj-cT-DL3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162.59541984732823" y="6.3380281690140849"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="BarbaraAI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap to interrupt" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NkO-SR-gq6">
+                                <rect key="frame" x="42" y="680" width="309" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="tapToInterrupt" destination="NkO-SR-gq6" id="RQd-od-39U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bHk-nb-1Z6">
+                    <rect key="frame" x="0.0" y="0.0" width="293" height="48"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zsj-8G-Z4P">
+                            <rect key="frame" x="0.0" y="0.33333333333333215" width="47" height="47"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="47" id="niA-uQ-V1g"/>
+                            </constraints>
+                            <imageReference key="image" image="phone.fill" catalog="system" symbolScale="small"/>
+                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="4" scale="small" weight="ultraLight"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHF-FK-vdE">
+                            <rect key="frame" x="47" y="0.0" width="65" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="65" id="uNK-NY-C8E"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="War-il-Kag">
+                            <rect key="frame" x="112" y="0.0" width="181" height="48"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="kB2-nX-GuY"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="zsj-8G-Z4P" firstAttribute="leading" secondItem="bHk-nb-1Z6" secondAttribute="leading" id="3yu-QV-2wV"/>
+                        <constraint firstItem="LHF-FK-vdE" firstAttribute="top" secondItem="bHk-nb-1Z6" secondAttribute="top" id="Gsq-MG-q0s"/>
+                        <constraint firstItem="LHF-FK-vdE" firstAttribute="leading" secondItem="zsj-8G-Z4P" secondAttribute="trailing" id="HDp-L0-lQ5"/>
+                        <constraint firstAttribute="bottom" secondItem="War-il-Kag" secondAttribute="bottom" id="JYB-cc-AlA"/>
+                        <constraint firstItem="War-il-Kag" firstAttribute="leading" secondItem="LHF-FK-vdE" secondAttribute="trailing" id="Ojh-N2-SA9"/>
+                        <constraint firstAttribute="bottom" secondItem="zsj-8G-Z4P" secondAttribute="bottom" id="Uzo-1Q-hhc"/>
+                        <constraint firstAttribute="bottom" secondItem="LHF-FK-vdE" secondAttribute="bottom" id="eBT-hU-wXz"/>
+                        <constraint firstItem="War-il-Kag" firstAttribute="top" secondItem="bHk-nb-1Z6" secondAttribute="top" id="eTn-vT-vFE"/>
+                        <constraint firstItem="zsj-8G-Z4P" firstAttribute="top" secondItem="bHk-nb-1Z6" secondAttribute="top" id="gIU-pE-j0F"/>
+                        <constraint firstAttribute="trailing" secondItem="War-il-Kag" secondAttribute="trailing" id="mAD-Z2-pW5"/>
+                        <constraint firstAttribute="height" constant="48" id="ptr-wU-c2Y"/>
+                    </constraints>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="1060.3053435114502" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="b55ad8a470a2bc5c5ffc5f864b9fdd09-removebg-preview" width="612" height="408"/>
+        <image name="phone.fill" catalog="system" width="128" height="114"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
