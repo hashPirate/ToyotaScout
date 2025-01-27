@@ -26,7 +26,7 @@ Find cars near you with ease! ToyotaScout uses:
 ToyotaScout remembers past interactions, ensuring consistent and relevant recommendations over time. No need to repeat yourself – it’s like having a personal assistant who knows you inside and out.
 
 #### Mobile Convenience
-Available as a **fully functional mobile app**, ToyotaScout offers a chat-based interface that makes interacting with the AI smooth and enjoyable. Carry your virtual salesperson in your pocket!
+Available as a **fully functional mobile app**, ToyotaScout offers a chat-based interface that makes interacting with the chatbot smooth and enjoyable. Carry your virtual salesperson in your pocket!
 
 ---
 
@@ -97,6 +97,7 @@ The mobile app is built using Swift and serves as the front-end interface for us
 - Launch the ToyotaScout mobile app.
 - Enter your preferences via the chat interface.
 - Receive personalized car recommendations instantly.
+- IT IS ALWAYS GOOD PRACTICE TO SEND YOU API KEYS THROUGH HEADERS INSTEAD OF IN THE URL. However as the api we used was free and open regardless we decided not to overcomplicate things.
 
 ---
 
