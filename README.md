@@ -34,7 +34,7 @@ Available as a **fully functional mobile app**, ToyotaScout offers a chat-based 
 ToyotaScout consists of two primary components:
 
 #### 1. **Flask-Based Backend API**
-The backend, built using Flask, powers the AI functionality and serves as the brain behind ToyotaScout. It processes user prompts, analyzes car listings, and returns tailored recommendations.
+The backend, built using Flask powers the AI functionality and serves as the brain behind ToyotaScout. It processes user prompts, analyzes car listings, and returns tailored recommendations.
 
 **Code Snippet for API Interaction:**
 ```python
@@ -85,6 +85,7 @@ The mobile app is built using Swift and serves as the front-end interface for us
    ```bash
      python flaskapi.py
    ```
+- Ensure you have inputted your API keys for openai and marketcheck.
 
 #### Mobile App Setup
 1. Open the Swift project in Xcode.
