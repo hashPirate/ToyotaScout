@@ -1,7 +1,7 @@
 # ToyotaScout
 
 ## Revolutionizing the Car-Buying Experience
-ToyotaScout is an AI-powered car sales solution designed to act as your personal virtual salesperson. With advanced algorithms and an intuitive mobile app, ToyotaScout transforms the car-buying journey into a seamless and highly personalized experience.
+ToyotaScout is an AI-powered car sales solution designed to act as your personal virtual salesperson. Built for the Toyota Challenge at TAMUHACK 2025, ToyotaScout transforms the car-buying journey into a seamless and highly personalized experience.
 
 ---
 
